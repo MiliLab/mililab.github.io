@@ -1,0 +1,12 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.DS_Store
+node_modules/
+
+# Source files not needed for static site
+README.md
+_bibliography/papers.bib
+_bibliography/papers_all.bib

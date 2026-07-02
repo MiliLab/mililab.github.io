@@ -1,0 +1,1205 @@
+[
+  {
+    "year": "2026",
+    "title": "UHR-Micro: Diagnosing and Mitigating the Resolution Illusion in Earth Observation VLMs",
+    "has_thumb": true,
+    "thumb_key": "uhrmicrodiagnosingandmitigatin"
+  },
+  {
+    "year": "2026",
+    "title": "Seirenes: Adversarial Self-Play with Evolving Distractions for LLM Reasoning",
+    "has_thumb": true,
+    "thumb_key": "seirenesadversarialselfplaywit"
+  },
+  {
+    "year": "2026",
+    "title": "DocScope: Benchmarking Verifiable Reasoning for Trustworthy Long-Document Understanding",
+    "has_thumb": true,
+    "thumb_key": "docscopebenchmarkingverifiable"
+  },
+  {
+    "year": "2026",
+    "title": "Any2Any: Unified Arbitrary Modality Translation for Remote Sensing",
+    "has_thumb": true,
+    "thumb_key": "any2anyunifiedarbitrarymodalit"
+  },
+  {
+    "year": "2026",
+    "title": "Text Before Vision: Staged Knowledge Injection Matters for Agentic RLVR in Ultra-High-Resolution Remote Sensing Understanding",
+    "has_thumb": true,
+    "thumb_key": "textbeforevisionstagedknowledg"
+  },
+  {
+    "year": "2026",
+    "title": "Degradation-Aware Metric Prompting for Hyperspectral Image Restoration",
+    "has_thumb": true,
+    "thumb_key": "degradationawaremetricpromptin"
+  },
+  {
+    "year": "2026",
+    "title": "SAMe: A Semantic Anatomy Mapping Engine for Robotic Ultrasound",
+    "has_thumb": true,
+    "thumb_key": "sameasemanticanatomymappingeng"
+  },
+  {
+    "year": "2026",
+    "title": "Omni-I2C: A Holistic Benchmark for High-Fidelity Image-to-Code Generation",
+    "has_thumb": true,
+    "thumb_key": "omnii2caholisticbenchmarkforhi"
+  },
+  {
+    "year": "2026",
+    "title": "Event-based Simultaneous Localization and Mapping: A Comprehensive Survey",
+    "has_thumb": true,
+    "thumb_key": "eventbasedsimultaneouslocaliza"
+  },
+  {
+    "year": "2026",
+    "title": "Universal Pansharpening Foundation Model",
+    "has_thumb": true,
+    "thumb_key": "universalpansharpeningfoundati"
+  },
+  {
+    "year": "2026",
+    "title": "Seeing Clearly without Training: Mitigating Hallucinations in Multimodal LLMs for Remote Sensing",
+    "has_thumb": true,
+    "thumb_key": "seeingclearlywithouttrainingmi"
+  },
+  {
+    "year": "2026",
+    "title": "Heuristic-inspired Reasoning Priors Facilitate Data-Efficient Referring Object Detection",
+    "has_thumb": true,
+    "thumb_key": "heuristicinspiredreasoningprio"
+  },
+  {
+    "year": "2026",
+    "title": "GeoBridge: A Semantic-Anchored Multi-View Foundation Model Bridging Images and Text for Geo-Localization",
+    "has_thumb": true,
+    "thumb_key": "geobridgeasemanticanchoredmult"
+  },
+  {
+    "year": "2026",
+    "title": "UniGeoSeg: Towards Unified Open-World Segmentation for Geospatial Scenes",
+    "has_thumb": true,
+    "thumb_key": "unigeosegtowardsunifiedopenwor"
+  },
+  {
+    "year": "2026",
+    "title": "SARMAE: Masked Autoencoder for SAR Representation Learning",
+    "has_thumb": true,
+    "thumb_key": "sarmaemaskedautoencoderforsarr"
+  },
+  {
+    "year": "2026",
+    "title": "Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning",
+    "has_thumb": true,
+    "thumb_key": "perceptualevidenceanchoredrein"
+  },
+  {
+    "year": "2026",
+    "title": "Residual Diffusion Bridge Model for Image Restoration",
+    "has_thumb": true,
+    "thumb_key": "residualdiffusionbridgemodelfo"
+  },
+  {
+    "year": "2026",
+    "title": "DeepSketcher: Internalizing Visual Manipulation for Multimodal Reasoning",
+    "has_thumb": true,
+    "thumb_key": "deepsketcherinternalizingvisua"
+  },
+  {
+    "year": "2026",
+    "title": "GeoEyes: On-Demand Visual Focusing for Evidence-Grounded Understanding of Ultra-High-Resolution Remote Sensing Imagery",
+    "has_thumb": true,
+    "thumb_key": "geoeyesondemandvisualfocusingf"
+  },
+  {
+    "year": "2026",
+    "title": "VLRS-Bench: A Vision-Language Reasoning Benchmark for Remote Sensing",
+    "has_thumb": true,
+    "thumb_key": "vlrsbenchavisionlanguagereason"
+  },
+  {
+    "year": "2026",
+    "title": "JOintGS: Joint Optimization of Cameras, Bodies and 3D Gaussians for In-the-Wild Monocular Reconstruction",
+    "has_thumb": true,
+    "thumb_key": "jointgsjointoptimizationofcame"
+  },
+  {
+    "year": "2026",
+    "title": "AnesSuite: A Comprehensive Benchmark and Dataset Suite for Anesthesiology Reasoning in LLMs",
+    "has_thumb": true,
+    "thumb_key": "anessuiteacomprehensivebenchma"
+  },
+  {
+    "year": "2025",
+    "title": "CrossEarth: Geospatial Vision Foundation Model for Domain Generalizable Remote Sensing Semantic Segmentation",
+    "has_thumb": true,
+    "thumb_key": "crossegeospavisionfounda2025",
+    "arxiv_id": "2410.22629v3"
+  },
+  {
+    "year": "2025",
+    "title": "GeoZero: Incentivizing Reasoning from Scratch on Geospatial Scenes",
+    "has_thumb": true,
+    "thumb_key": "geozerincentreasonfrom2025",
+    "arxiv_id": "2511.22645v3"
+  },
+  {
+    "year": "2025",
+    "title": "S5: Scalable Semi-Supervised Semantic Segmentation in Remote Sensing",
+    "has_thumb": true,
+    "thumb_key": "s5scalabsemisuperv2025",
+    "arxiv_id": "2508.12409v3"
+  },
+  {
+    "year": "2025",
+    "title": "RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing",
+    "has_thumb": true,
+    "thumb_key": "romascalinupmamba2025",
+    "arxiv_id": "2503.10392v2"
+  },
+  {
+    "year": "2025",
+    "title": "GeoLLaVA-8K: Scaling Remote-Sensing Multimodal Large Language Models to 8K Resolution",
+    "has_thumb": true,
+    "thumb_key": "geolla8kscalinremote2025",
+    "arxiv_id": "2505.21375v2"
+  },
+  {
+    "year": "2025",
+    "title": "DGSolver: Diffusion Generalist Solver with Universal Posterior Sampling for Image Restoration",
+    "has_thumb": true,
+    "thumb_key": "dgsolvdiffusgenerasolver2025",
+    "arxiv_id": "2504.21487v2"
+  },
+  {
+    "year": "2025",
+    "title": "REX-RAG: Reasoning Exploration with Policy Correction in Retrieval-Augmented Generation",
+    "has_thumb": true,
+    "thumb_key": "rexragreasonexplor2025",
+    "arxiv_id": "2508.08149v2"
+  },
+  {
+    "year": "2025",
+    "title": "Synergistic Prompting for Robust Visual Recognition with Missing Modalities",
+    "has_thumb": true,
+    "thumb_key": "synergpromptforrobust2025",
+    "arxiv_id": "2507.07802v2"
+  },
+  {
+    "year": "2025",
+    "title": "Rethink Sparse Signals for Pose-guided Text-to-image Generation",
+    "has_thumb": true,
+    "thumb_key": "rethinsparsesignalfor2025",
+    "arxiv_id": "2506.20983v1"
+  },
+  {
+    "year": "2025",
+    "title": "Harnessing Massive Satellite Imagery with Efficient Masked Image Modeling",
+    "has_thumb": true,
+    "thumb_key": "harnesmassivsatellimager2025",
+    "arxiv_id": "2406.11933v6"
+  },
+  {
+    "year": "2025",
+    "title": "High-quality Pseudo-labeling for Point Cloud Segmentation with Scene-level Annotation",
+    "has_thumb": true,
+    "thumb_key": "highqualitpseudolabeli2025",
+    "arxiv_id": "2506.23227v1"
+  },
+  {
+    "year": "2025",
+    "title": "OmniEarth-Bench: Towards Holistic Evaluation of Earth&#x27;s Six Spheres and Cross-Spheres Interactions with Multimodal Observational Earth Data",
+    "has_thumb": true,
+    "thumb_key": "omniearthbenchtowardsholistice",
+    "arxiv_id": null
+  },
+  {
+    "year": "2025",
+    "title": "LogicOCR: Do Your Large Multimodal Models Excel at Logical Reasoning on Text-Rich Images?",
+    "has_thumb": true,
+    "thumb_key": "logicodoyourlarge2025",
+    "arxiv_id": "2505.12307v2"
+  },
+  {
+    "year": "2025",
+    "title": "Advances in Radiance Field for Dynamic Scene: From Neural Field to Gaussian Field",
+    "has_thumb": true,
+    "thumb_key": "advancinradianfield2025",
+    "arxiv_id": "2505.10049v2"
+  },
+  {
+    "year": "2025",
+    "title": "Dynamic Parallel Tree Search for Efficient LLM Reasoning",
+    "has_thumb": true,
+    "thumb_key": "dynamiparalltreesearch2025",
+    "arxiv_id": "2502.16235v2"
+  },
+  {
+    "year": "2025",
+    "title": "MapNav: A Novel Memory Representation via Annotated Semantic Maps for VLM-based Vision-and-Language Navigation",
+    "has_thumb": true,
+    "thumb_key": "mapnavanovelmemoryrepresentati",
+    "arxiv_id": null
+  },
+  {
+    "year": "2025",
+    "title": "TiMo: Spatiotemporal Foundation Model for Satellite Image Time Series",
+    "has_thumb": true,
+    "thumb_key": "timospatiofoundamodel2025",
+    "arxiv_id": "2505.08723v1"
+  },
+  {
+    "year": "2025",
+    "title": "SafeMap: Robust HD Map Construction from Incomplete Observations",
+    "has_thumb": true,
+    "thumb_key": "safemarobusthdmap2025",
+    "arxiv_id": "2507.00861v1"
+  },
+  {
+    "year": "2025",
+    "title": "Human-Imperceptible, Machine-Recognizable Images",
+    "has_thumb": true,
+    "thumb_key": "humanimpercmachinrecogn2025",
+    "arxiv_id": "2306.03679v1"
+  },
+  {
+    "year": "2025",
+    "title": "DDPA-3DVG: Vision-Language Dual-Decoupling and Progressive Alignment for 3D Visual Grounding",
+    "has_thumb": false,
+    "thumb_key": "ddpa3dvgvisionlangua2025",
+    "arxiv_id": null
+  },
+  {
+    "year": "2025",
+    "title": "BEVTrack: A Simple and Strong Baseline for 3D Single Object Tracking in Bird&#x27;s-Eye View",
+    "has_thumb": true,
+    "thumb_key": "bevtrackasimpleandstrongbaseli",
+    "arxiv_id": null
+  },
+  {
+    "year": "2025",
+    "title": "Open-Vocabulary Fine-Grained Hand Action Detection",
+    "has_thumb": false,
+    "thumb_key": "openvocabufinegraine2025",
+    "arxiv_id": null
+  },
+  {
+    "year": "2025",
+    "title": "Unified Domain Adaptive Semantic Segmentation",
+    "has_thumb": true,
+    "thumb_key": "unifiedomainadaptisemant2025",
+    "arxiv_id": "2311.13254v5"
+  },
+  {
+    "year": "2025",
+    "title": "HyperSIGMA: Hyperspectral Intelligence Comprehension Foundation Model",
+    "has_thumb": true,
+    "thumb_key": "hypershypersintellcompre2025",
+    "arxiv_id": "2406.11519v2"
+  },
+  {
+    "year": "2025",
+    "title": "InstructVEdit: A Holistic Approach for Instructional Video Editing",
+    "has_thumb": true,
+    "thumb_key": "instruaholistapproa2025",
+    "arxiv_id": "2503.17641v1"
+  },
+  {
+    "year": "2025",
+    "title": "XLRS-Bench: Could Your Multimodal LLMs Understand Extremely Large Ultra-High-Resolution Remote Sensing Imagery?",
+    "has_thumb": true,
+    "thumb_key": "xlrsbenchcouldyour2025",
+    "arxiv_id": "2503.23771v1"
+  },
+  {
+    "year": "2025",
+    "title": "SAIST: Segment Any Infrared Small Target Model Guided by Contrastive Language-Image Pretraining",
+    "has_thumb": false,
+    "thumb_key": "saistsegmenanyinfrar2025",
+    "arxiv_id": null
+  },
+  {
+    "year": "2024",
+    "title": "General Class-balanced Multicentric Dynamic Prototype Pseudo-Labeling for Source-free Domain Adaptation",
+    "has_thumb": true,
+    "thumb_key": "generalclassbalancedmulticentr",
+    "arxiv_id": null
+  },
+  {
+    "year": "2024",
+    "title": "UAWTrack: Universal 3D Single Object Tracking in Adverse Weather",
+    "has_thumb": false,
+    "thumb_key": "uawtrauniver3dsingle2024",
+    "arxiv_id": null
+  },
+  {
+    "year": "2024",
+    "title": "Semi-supervised Infrared Small Target Detection with Thermodynamic-Inspired Uneven Perturbation and Confidence Adaptation",
+    "has_thumb": false,
+    "thumb_key": "semisupervinfrarsmall2024",
+    "arxiv_id": null
+  },
+  {
+    "year": "2024",
+    "title": "MOCID: Motion Context and Displacement Information Learning for Moving Infrared Small Target Detection",
+    "has_thumb": false,
+    "thumb_key": "mocidmotioncontexand2024",
+    "arxiv_id": null
+  },
+  {
+    "year": "2024",
+    "title": "Hi-SAM: Marrying Segment Anything Model for Hierarchical Text Segmentation",
+    "has_thumb": true,
+    "thumb_key": "hisammarryisegmen2024",
+    "arxiv_id": "2401.17904v2"
+  },
+  {
+    "year": "2024",
+    "title": "Is Your HD Map Constructor Reliable under Sensor Corruptions?",
+    "has_thumb": true,
+    "thumb_key": "isyourhdmap2024",
+    "arxiv_id": "2406.12214v3"
+  },
+  {
+    "year": "2024",
+    "title": "GoMatching: A Simple Baseline for Video Text Spotting via Long and Short Term Matching",
+    "has_thumb": true,
+    "thumb_key": "gomatcasimplebaseli2024",
+    "arxiv_id": "2401.07080v2"
+  },
+  {
+    "year": "2024",
+    "title": "Learning General and Specific Embedding with Transformer for Few-Shot Object Detection",
+    "has_thumb": false,
+    "thumb_key": "learnigeneraandspecif2024",
+    "arxiv_id": null
+  },
+  {
+    "year": "2024",
+    "title": "From Pixels to Preservation: The Power of Large Vision Models in Heritage Content Understanding",
+    "has_thumb": false,
+    "thumb_key": "frompixelstopreser2024",
+    "arxiv_id": null
+  },
+  {
+    "year": "2024",
+    "title": "HandRefiner: Refining Malformed Hands in Generated Images by Diffusion-based Conditional Inpainting",
+    "has_thumb": true,
+    "thumb_key": "handrerefinimalforhands2024",
+    "arxiv_id": "2311.17957v2"
+  },
+  {
+    "year": "2024",
+    "title": "Multi-Granularity Hand Action Detection",
+    "has_thumb": true,
+    "thumb_key": "multigranulhandaction2024",
+    "arxiv_id": "2306.10858v2"
+  },
+  {
+    "year": "2024",
+    "title": "SAR-SLAM: Self-Attentive Rendering-based SLAM with Neural Point Cloud Encoding",
+    "has_thumb": false,
+    "thumb_key": "sarslamselfattent2024",
+    "arxiv_id": null
+  },
+  {
+    "year": "2024",
+    "title": "Unleashing the Power of Generic Segmentation Model: A Simple Baseline for Infrared Small Target Detection",
+    "has_thumb": true,
+    "thumb_key": "unleasthepowerof2024",
+    "arxiv_id": "2409.04714v1"
+  },
+  {
+    "year": "2024",
+    "title": "IRSAM: Advancing Segment Anything Model for Infrared Small Target Detection",
+    "has_thumb": true,
+    "thumb_key": "irsamadvancsegmenanythi2024",
+    "arxiv_id": "2407.07520v1"
+  },
+  {
+    "year": "2024",
+    "title": "MapDistill: Boosting Efficient Camera-based HD Map Construction via Camera-LiDAR Fusion Model Distillation",
+    "has_thumb": true,
+    "thumb_key": "mapdisboostiefficicamera2024",
+    "arxiv_id": "2407.11682v1"
+  },
+  {
+    "year": "2024",
+    "title": "ESceme: Vision-and-Language Navigation with Episodic Scene Memory",
+    "has_thumb": true,
+    "thumb_key": "escemevisionandlangua2024",
+    "arxiv_id": "2303.01032v3"
+  },
+  {
+    "year": "2024",
+    "title": "PoseBench: Benchmarking the Robustness of Pose Estimation Models under Corruptions",
+    "has_thumb": true,
+    "thumb_key": "posebebenchmtherobust2024",
+    "arxiv_id": "2406.14367v2"
+  },
+  {
+    "year": "2024",
+    "title": "A Survey on Self-supervised Learning: Algorithms, Applications, and Future Trends",
+    "has_thumb": true,
+    "thumb_key": "asurveyonself2024",
+    "arxiv_id": "2301.05712v4"
+  },
+  {
+    "year": "2024",
+    "title": "Expanding and Refining Hybrid Compressors for Efficient Object Re-identification",
+    "has_thumb": false,
+    "thumb_key": "expandandrefinihybrid2024",
+    "arxiv_id": null
+  },
+  {
+    "year": "2024",
+    "title": "LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote Sensing Image Interpretation",
+    "has_thumb": true,
+    "thumb_key": "lemeviefficivisiontransf2024",
+    "arxiv_id": "2405.09789v1"
+  },
+  {
+    "year": "2024",
+    "title": "UniMix: Towards Domain Adaptive and Generalizable LiDAR Semantic Segmentation in Adverse Weather",
+    "has_thumb": true,
+    "thumb_key": "unimixtowarddomainadapti2024",
+    "arxiv_id": "2404.05145v1"
+  },
+  {
+    "year": "2024",
+    "title": "A Semi-supervised Nighttime Dehazing Baseline with Spatial-Frequency Aware and Realistic Brightness Constraint",
+    "has_thumb": true,
+    "thumb_key": "asemisupervnightt2024",
+    "arxiv_id": "2403.18548v1"
+  },
+  {
+    "year": "2023",
+    "title": "Pruning Self-attentions into Convolutional Layers in Single Path",
+    "has_thumb": true,
+    "thumb_key": "pruningselfattentionsintoconvo",
+    "arxiv_id": "2111.11802v4"
+  },
+  {
+    "year": "2023",
+    "title": "APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-Scale Dataset and Beyond",
+    "has_thumb": true,
+    "thumb_key": "aptv2benchmanimalpose2023",
+    "arxiv_id": "2312.15612v1"
+  },
+  {
+    "year": "2023",
+    "title": "SurgicalPart-SAM: Part-to-Whole Collaborative Prompting for Surgical Instrument Segmentation",
+    "has_thumb": true,
+    "thumb_key": "surgicsampartto2023",
+    "arxiv_id": "2312.14481v2"
+  },
+  {
+    "year": "2023",
+    "title": "Vision Transformer with Quadrangle Attention",
+    "has_thumb": true,
+    "thumb_key": "visiontransfwithquadra2023",
+    "arxiv_id": "2303.15105v1"
+  },
+  {
+    "year": "2023",
+    "title": "Decomposing Semantic Shifts for Composed Image Retrieval",
+    "has_thumb": true,
+    "thumb_key": "decompsemantshiftsfor2023",
+    "arxiv_id": "2309.09531v1"
+  },
+  {
+    "year": "2023",
+    "title": "IRPruneDet: Efficient Infrared Small Target Detection via Wavelet Structure-Regularized Soft Channel Pruning",
+    "has_thumb": false,
+    "thumb_key": "irprunefficiinfrarsmall2023",
+    "arxiv_id": null
+  },
+  {
+    "year": "2023",
+    "title": "SurgicalSAM: Efficient Class Promptable Surgical Instrument Segmentation",
+    "has_thumb": true,
+    "thumb_key": "surgicefficiclassprompt2023",
+    "arxiv_id": "2308.08746v2"
+  },
+  {
+    "year": "2023",
+    "title": "SimDistill: Simulated Multi-modal Distillation for BEV 3D Object Detection",
+    "has_thumb": true,
+    "thumb_key": "simdissimulamultimodal2023",
+    "arxiv_id": "2303.16818v4"
+  },
+  {
+    "year": "2023",
+    "title": "Grounded Affordance from Exocentric View",
+    "has_thumb": true,
+    "thumb_key": "groundaffordfromexocen2023",
+    "arxiv_id": "2208.13196v2"
+  },
+  {
+    "year": "2023",
+    "title": "ViTPose++: Vision Transformer for Generic Body Pose Estimation",
+    "has_thumb": true,
+    "thumb_key": "vitposvisiontransffor2023",
+    "arxiv_id": "2212.04246v3"
+  },
+  {
+    "year": "2023",
+    "title": "On Exploring Multiplicity of Primitives and Attributes for Texture Recognition in the Wild",
+    "has_thumb": false,
+    "thumb_key": "onexplormultipof2023",
+    "arxiv_id": null
+  },
+  {
+    "year": "2023",
+    "title": "SAMRS: Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model",
+    "has_thumb": true,
+    "thumb_key": "samrsscalinupremote2023",
+    "arxiv_id": "2305.02034v4"
+  },
+  {
+    "year": "2023",
+    "title": "End-to-end One-shot Human Parsing",
+    "has_thumb": true,
+    "thumb_key": "endtoendone2023",
+    "arxiv_id": "2105.01241v3"
+  },
+  {
+    "year": "2023",
+    "title": "GraMMaR: Ground-aware Motion Model for 3D Human Motion Reconstruction",
+    "has_thumb": true,
+    "thumb_key": "grammagroundawaremotion2023",
+    "arxiv_id": "2306.16736v3"
+  },
+  {
+    "year": "2023",
+    "title": "AniPixel: Towards Animatable Pixel-Aligned Human Avatar",
+    "has_thumb": true,
+    "thumb_key": "anipixtowardanimatpixel2023",
+    "arxiv_id": "2302.03397v2"
+  },
+  {
+    "year": "2023",
+    "title": "Unifying Flow, Stereo and Depth Estimation",
+    "has_thumb": true,
+    "thumb_key": "unifyiflowstereoand2023",
+    "arxiv_id": "2211.05783v3"
+  },
+  {
+    "year": "2023",
+    "title": "Domain Specified Optimization for Deployment Authorization",
+    "has_thumb": false,
+    "thumb_key": "domainspecifoptimifor2023",
+    "arxiv_id": null
+  },
+  {
+    "year": "2023",
+    "title": "ESSAformer: Efficient Transformer for Hyperspectral Image Super-resolution",
+    "has_thumb": true,
+    "thumb_key": "essafoefficitransffor2023",
+    "arxiv_id": "2307.14010v1"
+  },
+  {
+    "year": "2023",
+    "title": "Sensitivity-Aware Visual Parameter-Efficient Fine-Tuning",
+    "has_thumb": true,
+    "thumb_key": "sensitawarevisualparame2023",
+    "arxiv_id": "2303.08566v2"
+  },
+  {
+    "year": "2023",
+    "title": "Deep Corner",
+    "has_thumb": false,
+    "thumb_key": "deepcorner2023",
+    "arxiv_id": null
+  },
+  {
+    "year": "2023",
+    "title": "Transformer-based Context Condensation for Boosting Feature Pyramids in Object Detection",
+    "has_thumb": true,
+    "thumb_key": "transfbasedcontexconden2023",
+    "arxiv_id": "2207.06603v1"
+  },
+  {
+    "year": "2023",
+    "title": "Learning to Purification for Unsupervised Person Re-identification",
+    "has_thumb": true,
+    "thumb_key": "learnitopurififor2023",
+    "arxiv_id": "2204.09931v2"
+  },
+  {
+    "year": "2023",
+    "title": "Scalable Mask Annotation for Video Text Spotting",
+    "has_thumb": true,
+    "thumb_key": "scalabmaskannotafor2023",
+    "arxiv_id": "2305.01443v1"
+  },
+  {
+    "year": "2023",
+    "title": "VNAS: Variational Neural Architecture Search",
+    "has_thumb": false,
+    "thumb_key": "vnasvariatneuralarchit2023",
+    "arxiv_id": null
+  },
+  {
+    "year": "2023",
+    "title": "OSP2B: One-Stage Point-to-Box Network for 3D Siamese Tracking",
+    "has_thumb": true,
+    "thumb_key": "osp2bonestagepoint2023",
+    "arxiv_id": "2304.11584v2"
+  },
+  {
+    "year": "2023",
+    "title": "DCN-T: Dual Context Network with Transformer for Hyperspectral Image Classification",
+    "has_thumb": true,
+    "thumb_key": "dcntdualcontex2023",
+    "arxiv_id": "2304.09915v1"
+  },
+  {
+    "year": "2023",
+    "title": "Deep Image Matting: A Comprehensive Survey",
+    "has_thumb": true,
+    "thumb_key": "deepimagemattina2023",
+    "arxiv_id": "2304.04672v1"
+  },
+  {
+    "year": "2023",
+    "title": "Rethinking Portrait Matting with Privacy Preserving",
+    "has_thumb": true,
+    "thumb_key": "rethinportramattinwith2023",
+    "arxiv_id": "2203.16828v2"
+  },
+  {
+    "year": "2023",
+    "title": "Deep Learning for Camera Calibration and Beyond: A Survey",
+    "has_thumb": true,
+    "thumb_key": "deeplearniforcamera2023",
+    "arxiv_id": "2303.10559v3"
+  },
+  {
+    "year": "2023",
+    "title": "Leverage Interactive Affinity for Affordance Learning",
+    "has_thumb": false,
+    "thumb_key": "leverainteraaffinifor2023",
+    "arxiv_id": null
+  },
+  {
+    "year": "2023",
+    "title": "DeepSolo: Let Transformer Decoder with Explicit Points Solo for Text Spotting",
+    "has_thumb": true,
+    "thumb_key": "deepsolettransfdecode2023",
+    "arxiv_id": "2211.10772v4"
+  },
+  {
+    "year": "2023",
+    "title": "CLAMP: Prompt-based Contrastive Learning for Connecting Language and Animal Pose",
+    "has_thumb": true,
+    "thumb_key": "clamppromptbasedcontra2023",
+    "arxiv_id": "2206.11752v3"
+  },
+  {
+    "year": "2023",
+    "title": "Referring Image Matting",
+    "has_thumb": true,
+    "thumb_key": "referrimagemattin2023",
+    "arxiv_id": "2206.05149v3"
+  },
+  {
+    "year": "2023",
+    "title": "Dynamic Focus-aware Positional Queries for Semantic Segmentation",
+    "has_thumb": true,
+    "thumb_key": "dynamifocusawarepositi2023",
+    "arxiv_id": "2204.01244v3"
+  },
+  {
+    "year": "2022",
+    "title": "IC9600: A Benchmark Dataset for Automatic Image Complexity Assessment",
+    "has_thumb": false,
+    "thumb_key": "ic9600abenchmdatase2022",
+    "arxiv_id": null
+  },
+  {
+    "year": "2022",
+    "title": "GLT-T: Global-Local Transformer Voting for 3D Single Object Tracking in Point Clouds",
+    "has_thumb": true,
+    "thumb_key": "glttgloballocal2022",
+    "arxiv_id": "2211.10927v1"
+  },
+  {
+    "year": "2022",
+    "title": "Learning to Learn Better for Video Object Segmentation",
+    "has_thumb": true,
+    "thumb_key": "learnitolearnbetter2022",
+    "arxiv_id": "2212.02112v1"
+  },
+  {
+    "year": "2022",
+    "title": "DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer",
+    "has_thumb": true,
+    "thumb_key": "dptextdetrtowardbetter2022",
+    "arxiv_id": "2207.04491v2"
+  },
+  {
+    "year": "2022",
+    "title": "APT-36K: A Large-scale Benchmark for Animal Pose Estimation and Tracking",
+    "has_thumb": true,
+    "thumb_key": "apt36kalarge2022",
+    "arxiv_id": "2206.05683v2"
+  },
+  {
+    "year": "2022",
+    "title": "Exploring Figure-Ground Assignment Mechanism in Perceptual Organization",
+    "has_thumb": false,
+    "thumb_key": "explorfiguregroundassign2022",
+    "arxiv_id": null
+  },
+  {
+    "year": "2022",
+    "title": "Watermarking for Out-of-distribution Detection",
+    "has_thumb": true,
+    "thumb_key": "watermforoutof2022",
+    "arxiv_id": "2210.15198v1"
+  },
+  {
+    "year": "2022",
+    "title": "ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation",
+    "has_thumb": true,
+    "thumb_key": "vitpossimplevisiontransf2022",
+    "arxiv_id": "2204.12484v3"
+  },
+  {
+    "year": "2022",
+    "title": "Information-Theoretic Odometry Learning",
+    "has_thumb": true,
+    "thumb_key": "informtheoreodometlearni2022",
+    "arxiv_id": "2203.05724v2"
+  },
+  {
+    "year": "2022",
+    "title": "MeshMAE: Masked Autoencoders for 3D Mesh Data Analysis",
+    "has_thumb": true,
+    "thumb_key": "meshmamaskedautoenfor2022",
+    "arxiv_id": "2207.10228v1"
+  },
+  {
+    "year": "2022",
+    "title": "JPerceiver: Joint Perception Network for Depth, Pose and Layout Estimation in Driving Scenes",
+    "has_thumb": true,
+    "thumb_key": "jpercejointpercepnetwor2022",
+    "arxiv_id": "2207.07895v1"
+  },
+  {
+    "year": "2022",
+    "title": "FakeCLR: Exploring Contrastive Learning for Solving Latent Discontinuity in Data-Efficient GANs",
+    "has_thumb": true,
+    "thumb_key": "fakeclexplorcontralearni2022",
+    "arxiv_id": "2207.08630v2"
+  },
+  {
+    "year": "2022",
+    "title": "ReAct: Temporal Action Detection with Relational Queries",
+    "has_thumb": true,
+    "thumb_key": "reacttemporactiondetect2022",
+    "arxiv_id": "2207.07097v1"
+  },
+  {
+    "year": "2022",
+    "title": "Towards Scale-Aware, Robust, and Generalizable Unsupervised Monocular Depth Estimation by Integrating IMU Motion Dynamics",
+    "has_thumb": true,
+    "thumb_key": "towardscaleawarerobust2022",
+    "arxiv_id": "2207.04680v3"
+  },
+  {
+    "year": "2022",
+    "title": "VSA: Learning Varied-Size Window Attention in Vision Transformers",
+    "has_thumb": true,
+    "thumb_key": "vsalearnivariedsize2022",
+    "arxiv_id": "2204.08446v2"
+  },
+  {
+    "year": "2022",
+    "title": "BMD: A General Class-balanced Multicentric Dynamic Prototype Strategy for Source-free Domain Adaptation",
+    "has_thumb": true,
+    "thumb_key": "bmdageneraclass2022",
+    "arxiv_id": "2204.02811v2"
+  },
+  {
+    "year": "2022",
+    "title": "Towards Data-Efficient Detection Transformers",
+    "has_thumb": true,
+    "thumb_key": "towarddataefficidetect2022",
+    "arxiv_id": "2203.09507v3"
+  },
+  {
+    "year": "2022",
+    "title": "PolyphonicFormer: Unified Query Learning for Depth-aware Video Panoptic Segmentation",
+    "has_thumb": true,
+    "thumb_key": "polyphonicformerunifiedqueryle",
+    "arxiv_id": "2112.02582v4"
+  },
+  {
+    "year": "2022",
+    "title": "RegionCL: Exploring Contrastive Region Pairs for Self-supervised Representation Learning",
+    "has_thumb": true,
+    "thumb_key": "regionclexploringcontrastivere",
+    "arxiv_id": null
+  },
+  {
+    "year": "2022",
+    "title": "GT-MUST: Gated Try-on by Learning the Mannequin-Specific Transformation",
+    "has_thumb": false,
+    "thumb_key": "gtmustgatedtry2022",
+    "arxiv_id": null
+  },
+  {
+    "year": "2022",
+    "title": "Exploring Feature Compensation and Cross-level Correlation for Infrared Small Target Detection",
+    "has_thumb": false,
+    "thumb_key": "explorfeaturcompenand2022",
+    "arxiv_id": null
+  },
+  {
+    "year": "2022",
+    "title": "RKformer: Runge-Kutta Transformer with Random-Connection Attention for Infrared Small Target Detection",
+    "has_thumb": false,
+    "thumb_key": "rkformrungekuttatransf2022",
+    "arxiv_id": null
+  },
+  {
+    "year": "2022",
+    "title": "One-Shot Object Affordance Detection in the Wild",
+    "has_thumb": true,
+    "thumb_key": "oneshotobjectafford2022",
+    "arxiv_id": "2108.03658v1"
+  },
+  {
+    "year": "2022",
+    "title": "Toward real-world single image deraining: A new benchmark and beyond",
+    "has_thumb": true,
+    "thumb_key": "towardrealworldsingle2022",
+    "arxiv_id": "2206.05514v2"
+  },
+  {
+    "year": "2022",
+    "title": "DUT: Learning video stabilization by simply watching unstable videos",
+    "has_thumb": true,
+    "thumb_key": "dutlearnivideostabil2022",
+    "arxiv_id": "2011.14574v3"
+  },
+  {
+    "year": "2022",
+    "title": "SAR-to-Optical Image Translation via Neural Partial Differential Equations",
+    "has_thumb": false,
+    "thumb_key": "sartoopticaimage2022",
+    "arxiv_id": null
+  },
+  {
+    "year": "2022",
+    "title": "A Comprehensive Survey on Data-Efficient GANs in Image Generation",
+    "has_thumb": true,
+    "thumb_key": "acompresurveyon2022",
+    "arxiv_id": "2204.08329v2"
+  },
+  {
+    "year": "2022",
+    "title": "I3CL: Intra-and Inter-Instance Collaborative Learning for Arbitrary-shaped Scene Text Detection",
+    "has_thumb": true,
+    "thumb_key": "i3clintraandinterinstancecolla",
+    "arxiv_id": null
+  },
+  {
+    "year": "2022",
+    "title": "DearKD: Data-Efficient Early Knowledge Distillation for Vision Transformers",
+    "has_thumb": true,
+    "thumb_key": "dearkddataefficiearly2022",
+    "arxiv_id": "2204.12997v2"
+  },
+  {
+    "year": "2022",
+    "title": "ISNet: Shape Matters for Infrared Small Target Detection",
+    "has_thumb": false,
+    "thumb_key": "isnetshapematterfor2022",
+    "arxiv_id": null
+  },
+  {
+    "year": "2022",
+    "title": "RU-Net: Regularized Unrolling Network for Scene Graph Generation",
+    "has_thumb": true,
+    "thumb_key": "runetregulaunroll2022",
+    "arxiv_id": "2205.01297v1"
+  },
+  {
+    "year": "2022",
+    "title": "Learning Affordance Grounding from Exocentric Images",
+    "has_thumb": true,
+    "thumb_key": "learniaffordgroundfrom2022",
+    "arxiv_id": "2203.09905v1"
+  },
+  {
+    "year": "2022",
+    "title": "FIBA: Frequency-Injection based Backdoor Attack in Medical Image Analysis",
+    "has_thumb": true,
+    "thumb_key": "fibafrequeinjectbased2022",
+    "arxiv_id": "2112.01148v2"
+  },
+  {
+    "year": "2022",
+    "title": "Recurrent Glimpse-based Decoder for Detection with Transformer",
+    "has_thumb": true,
+    "thumb_key": "recurrglimpsbaseddecode2022",
+    "arxiv_id": "2112.04632v2"
+  },
+  {
+    "year": "2022",
+    "title": "GMFlow: Learning Optical Flow via Global Matching",
+    "has_thumb": true,
+    "thumb_key": "gmflowlearniopticaflow2022",
+    "arxiv_id": "2111.13680v4"
+  },
+  {
+    "year": "2022",
+    "title": "ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond",
+    "has_thumb": true,
+    "thumb_key": "vitaevvisiontransfadvanc2022",
+    "arxiv_id": "2202.10108v2"
+  },
+  {
+    "year": "2022",
+    "title": "FP-DETR: Detection Transformer Advanced by Fully Pre-training",
+    "has_thumb": false,
+    "thumb_key": "fpdetrdetecttransf2022",
+    "arxiv_id": null
+  },
+  {
+    "year": "2021",
+    "title": "Robust Object Detection via Adversarial Novel Style Exploration",
+    "has_thumb": false,
+    "thumb_key": "robustobjectdetectvia2021",
+    "arxiv_id": null
+  },
+  {
+    "year": "2021",
+    "title": "SASA: Semantics-Augmented Set Abstraction for Point-based 3D Object Detection",
+    "has_thumb": true,
+    "thumb_key": "sasasemantaugmenset2021",
+    "arxiv_id": "2201.01976v1"
+  },
+  {
+    "year": "2021",
+    "title": "Visual Semantics Allow for Textual Reasoning Better in Scene Text Recognition",
+    "has_thumb": true,
+    "thumb_key": "visualsemantallowfor2021",
+    "arxiv_id": "2112.12916v1"
+  },
+  {
+    "year": "2021",
+    "title": "Siamese Network with Interactive Transformer for Video Object Segmentation",
+    "has_thumb": true,
+    "thumb_key": "siamesnetworwithintera2021",
+    "arxiv_id": "2112.13983v1"
+  },
+  {
+    "year": "2021",
+    "title": "Wide-angle Image Rectification: A Survey",
+    "has_thumb": true,
+    "thumb_key": "wideangleimagerectif2021",
+    "arxiv_id": "2011.12108v2"
+  },
+  {
+    "year": "2021",
+    "title": "CODON: On orchestrating cross-domain attentions for depth super-resolution",
+    "has_thumb": false,
+    "thumb_key": "codononorchescross2021",
+    "arxiv_id": null
+  },
+  {
+    "year": "2021",
+    "title": "Bridging Composite and Real: Towards End-to-end Deep Image Matting",
+    "has_thumb": true,
+    "thumb_key": "bridgicomposandreal2021",
+    "arxiv_id": "2010.16188v3"
+  },
+  {
+    "year": "2021",
+    "title": "AP-10K: A Benchmark for Animal Pose Estimation in the Wild",
+    "has_thumb": true,
+    "thumb_key": "ap10kabenchm2021",
+    "arxiv_id": "2108.12617v2"
+  },
+  {
+    "year": "2021",
+    "title": "ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias",
+    "has_thumb": true,
+    "thumb_key": "vitaevisiontransfadvanc2021",
+    "arxiv_id": "2106.03348v4"
+  },
+  {
+    "year": "2021",
+    "title": "Towards High Performance Human Keypoint Detection",
+    "has_thumb": true,
+    "thumb_key": "towardhighperforhuman2021",
+    "arxiv_id": "2002.00537v2"
+  },
+  {
+    "year": "2021",
+    "title": "Deep Automatic Natural Image Matting",
+    "has_thumb": true,
+    "thumb_key": "deepautomanaturaimage2021",
+    "arxiv_id": "2107.07235v1"
+  },
+  {
+    "year": "2021",
+    "title": "One-Shot Affordance Detection",
+    "has_thumb": true,
+    "thumb_key": "oneshotafforddetect2021",
+    "arxiv_id": "2106.14747v1"
+  },
+  {
+    "year": "2021",
+    "title": "A Comprehensive Survey on Image Dehazing Based on Deep Learning",
+    "has_thumb": true,
+    "thumb_key": "acomprehensivesurveyonimagedeh",
+    "arxiv_id": null
+  },
+  {
+    "year": "2021",
+    "title": "Out-of-boundary View Synthesis Towards Full-Frame Video Stabilization",
+    "has_thumb": true,
+    "thumb_key": "outofboundaview2021",
+    "arxiv_id": "2108.09041v1"
+  },
+  {
+    "year": "2021",
+    "title": "Exploring Sequence Feature Alignment for Domain Adaptive Detection Transformers",
+    "has_thumb": true,
+    "thumb_key": "explorsequenfeaturalignm2021",
+    "arxiv_id": "2107.12636v4"
+  },
+  {
+    "year": "2021",
+    "title": "DSP: Dual Soft-Paste for Unsupervised Domain Adaptive Semantic Segmentation",
+    "has_thumb": true,
+    "thumb_key": "dspdualsoftpaste2021",
+    "arxiv_id": "2107.09600v3"
+  },
+  {
+    "year": "2021",
+    "title": "Privacy-Preserving Portrait Matting",
+    "has_thumb": true,
+    "thumb_key": "privacpreserportramattin2021",
+    "arxiv_id": "2104.14222v2"
+  },
+  {
+    "year": "2020",
+    "title": "Progressive One-shot Human Parsing",
+    "has_thumb": true,
+    "thumb_key": "progreoneshothuman2020",
+    "arxiv_id": "2012.11810v3"
+  },
+  {
+    "year": "2020",
+    "title": "SIR: Self-supervised image rectification via seeing the same scene from multiple different lenses",
+    "has_thumb": true,
+    "thumb_key": "sirselfsupervimage2020",
+    "arxiv_id": "2011.14611v2"
+  },
+  {
+    "year": "2020",
+    "title": "Auto Learning Attention",
+    "has_thumb": false,
+    "thumb_key": "autolearniattent2020",
+    "arxiv_id": null
+  },
+  {
+    "year": "2020",
+    "title": "Nighttime Dehazing with a Synthetic Benchmark",
+    "has_thumb": true,
+    "thumb_key": "nighttdehaziwitha2020",
+    "arxiv_id": "2008.03864v3"
+  },
+  {
+    "year": "2020",
+    "title": "Recursive Context Routing for Object Detection",
+    "has_thumb": false,
+    "thumb_key": "recurscontexroutinfor2020",
+    "arxiv_id": null
+  },
+  {
+    "year": "2020",
+    "title": "Deep Degradation Prior for Low-Quality Image Classification",
+    "has_thumb": false,
+    "thumb_key": "deepdegradpriorfor2020",
+    "arxiv_id": null
+  },
+  {
+    "year": "2019",
+    "title": "Learn, Imagine and Create: Text-to-Image Generation from Prior Knowledge",
+    "has_thumb": false,
+    "thumb_key": "learnimaginandcreate2019",
+    "arxiv_id": null
+  },
+  {
+    "year": "2019",
+    "title": "Category Anchor-Guided Unsupervised Domain Adaptation for Semantic Segmentation",
+    "has_thumb": true,
+    "thumb_key": "categoanchorguidedunsupe2019",
+    "arxiv_id": "1910.13049v2"
+  },
+  {
+    "year": "2019",
+    "title": "Grapy-ML: Graph Pyramid Mutual Learning for Cross-dataset Human Parsing",
+    "has_thumb": true,
+    "thumb_key": "grapymlgraphpyrami2019",
+    "arxiv_id": "1911.12053v1"
+  },
+  {
+    "year": "2019",
+    "title": "Progressive Retinex: Mutually Reinforced Illumination-Noise Perception Network for Low-Light Image Enhancement",
+    "has_thumb": true,
+    "thumb_key": "progreretinemutualreinfo2019",
+    "arxiv_id": "1911.11323v1"
+  },
+  {
+    "year": "2019",
+    "title": "Deep Multiple-Attribute-Perceived Network for Real-world Texture Recognition",
+    "has_thumb": false,
+    "thumb_key": "deepmultipattribpercei2019",
+    "arxiv_id": null
+  },
+  {
+    "year": "2019",
+    "title": "Multi-Level Deep Cascade Trees for Conversion Rate Prediction in Recommendation System",
+    "has_thumb": true,
+    "thumb_key": "multileveldeepcascad2019",
+    "arxiv_id": "1805.09484v3"
+  },
+  {
+    "year": "2019",
+    "title": "MirrorGAN: Learning Text-to-image Generation by Redescription",
+    "has_thumb": true,
+    "thumb_key": "mirrorlearnitextto2019",
+    "arxiv_id": "1903.05854v1"
+  },
+  {
+    "year": "2019",
+    "title": "FAMED-Net: A Fast and Accurate Multi-scale End-to-end Dehazing Network",
+    "has_thumb": true,
+    "thumb_key": "famednetafast2019",
+    "arxiv_id": "1906.04334v2"
+  },
+  {
+    "year": "2018",
+    "title": "Fully Point-wise Convolutional Neural Network for Modeling Statistical Regularities in Natural Images",
+    "has_thumb": true,
+    "thumb_key": "fullypointwiseconvol2018",
+    "arxiv_id": "1801.06302v3"
+  },
+  {
+    "year": "2017",
+    "title": "Fast Haze Removal for Nighttime Image Using Maximum Reflectance Prior",
+    "has_thumb": false,
+    "thumb_key": "fasthazeremovafor2017",
+    "arxiv_id": null
+  }
+]

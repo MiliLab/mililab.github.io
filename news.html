@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jing Zhang — News and Updates.">
+<title>News · Jing Zhang</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">Jing Zhang</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="news.html" class="active">News</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="service.html">Service</a>
+      <a href="talks.html">Talks</a>
+      <a href="people.html">People</a>
+      <a href="about.html">About</a>
+
+      <button id="theme-toggle" title="Toggle dark mode" onclick="toggleTheme()">🌓</button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <h1>News</h1>
+  </div>
+</header>
+
+<section class="section" style="padding-top:8px">
+  <div class="container">
+
+    <h2 class="pub-year">2026</h2>
+    <ul class="news-list">
+      <li class="news-item">
+        <span class="news-date">June 2026</span>
+        <span class="news-text">Congratulations to <strong>Pei Zhang</strong> and <strong>Yupeng Wu</strong> on receiving the <strong>Outstanding Undergraduate Thesis Award</strong>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Jun 18, 2026</span>
+        <span class="news-text">Delivered an invited talk at the <strong>School of Computer Science, China University of Geosciences</strong>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Jun 17, 2026</span>
+        <span class="news-text">Hosted Dr. <strong>Zhe Chen</strong> from La Trobe University for an invited talk on structural priors for visual learning.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">May 2026</span>
+        <span class="news-text">Three papers accepted at <strong>ICML 2026</strong>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">April 2026</span>
+        <span class="news-text">Our survey on event-based SLAM has been published in <strong>IJCV</strong>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">February 2026</span>
+        <span class="news-text">Seven papers accepted at <strong>CVPR 2026</strong>: PEARL for multimodal reasoning; RDBM for image restoration (CVPR Highlight).</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">January 2026</span>
+        <span class="news-text"><strong>AnesSuite</strong> accepted at <strong>ICLR 2026</strong>.</span>
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+
+<script>
+  function toggleTheme(){
+    document.body.classList.toggle('dark');
+    localStorage.setItem('theme',document.body.classList.contains('dark')?'dark':'light');
+  }
+  if(localStorage.getItem('theme')==='dark') document.body.classList.add('dark');
+</script>
+  <script src="js/counter.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jing Zhang — Professional Services">
+<title>Service — Jing Zhang</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+/* Service-specific styles */
+.service-category{margin-bottom:28px}
+.service-cat-title{font-size:17px;font-weight:700;margin-bottom:10px;color:var(--text);letter-spacing:-0.2px}
+.service-cat-title .cat-icon{font-size:16px;margin-right:6px}
+.service-list{list-style:none}
+.service-list li{padding:6px 0;font-size:13px;color:var(--text-secondary);line-height:1.5;border-bottom:1px solid var(--border)}
+.service-list li:last-child{border-bottom:none}
+.service-list li .venue{font-weight:600;color:var(--text)}
+.service-list li .role{font-size:11px;color:var(--accent);background:var(--tag-bg);padding:1px 8px;border-radius:3px;margin-left:6px;font-weight:500}
+.service-list li .detail{font-size:11px;color:var(--text-muted);display:block;margin-top:1px}
+.service-intro{font-size:14px;color:var(--text-secondary);line-height:1.7;margin-bottom:24px}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">Jing Zhang</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="service.html" class="active">Service</a>
+      <a href="talks.html">Talks</a>
+      <a href="people.html">People</a>
+      <a href="about.html">About</a>
+
+      <button id="theme-toggle" title="Toggle dark mode" onclick="toggleTheme()">🌓</button>
+    </div>
+  </div>
+</nav>
+
+<section class="page-header">
+  <div class="container">
+    <h1>Professional Services</h1>
+  </div>
+</section>
+
+<section class="section" style="padding-top:8px">
+  <div class="container">
+    <p class="service-intro">
+      I am actively involved in the academic community through reviewing, editorial work,
+      and conference organization for top-tier venues in computer vision and machine learning.
+    </p>
+
+    <!-- Area Chair -->
+    <div class="service-category">
+      <div class="service-cat-title"><span class="cat-icon">🎙️</span> Area Chair</div>
+      <ul class="service-list">
+        <li><span class="venue">NeurIPS</span><span class="role">AC</span> <span class="detail">Conference on Neural Information Processing Systems</span></li>
+        <li><span class="venue">ICML</span><span class="role">AC</span> <span class="detail">International Conference on Machine Learning</span></li>
+        <li><span class="venue">ICLR</span><span class="role">AC</span> <span class="detail">International Conference on Learning Representations</span></li>
+        <li><span class="venue">ACML</span><span class="role">AC</span> <span class="detail">The Asian Conference on Machine Learning</span></li>
+        <li><span class="venue">ICPR</span><span class="role">AC</span> <span class="detail">International Conference on Pattern Recognition</span></li>
+      </ul>
+    </div>
+
+    <!-- Technical Chair -->
+    <div class="service-category">
+      <div class="service-cat-title"><span class="cat-icon">🛠️</span> Technical Chair</div>
+      <ul class="service-list">
+        <li><span class="venue">ICRL</span><span class="role">TC</span> <span class="detail">International Conference on Robotics and Learning</span></li>
+      </ul>
+    </div>
+
+    <!-- Editorial Board -->
+    <div class="service-category">
+      <div class="service-cat-title"><span class="cat-icon">📝</span> Editorial Board</div>
+      <ul class="service-list">
+        <li><span class="venue">Neural Networks</span><span class="role">Action Editor</span></li>
+        <li><span class="venue">Robot Learning</span><span class="role">Associate Editor</span></li>
+        <li><span class="venue">IEEE TBD</span><span class="role">Guest Editor</span> <span class="detail">IEEE Transactions on Big Data</span></li>
+      </ul>
+    </div>
+
+    <!-- Senior Program Committee -->
+    <div class="service-category">
+      <div class="service-cat-title"><span class="cat-icon">🎯</span> Senior Program Committee</div>
+      <ul class="service-list">
+        <li><span class="venue">AAAI</span><span class="role">SPC</span> <span class="detail">AAAI Conference on Artificial Intelligence</span></li>
+        <li><span class="venue">IJCAI</span><span class="role">SPC</span> <span class="detail">International Joint Conferences on Artificial Intelligence</span></li>
+      </ul>
+    </div>
+
+    <!-- Program Committee / Conference Reviewer -->
+    <div class="service-category">
+      <div class="service-cat-title"><span class="cat-icon">🔍</span> Conference Reviewer</div>
+      <ul class="service-list">
+        <li><span class="venue">CVPR</span> — Computer Vision and Pattern Recognition</li>
+        <li><span class="venue">ICCV</span> — International Conference on Computer Vision</li>
+        <li><span class="venue">ECCV</span> — European Conference on Computer Vision</li>
+        <li><span class="venue">ICLR</span> — International Conference on Learning Representations</li>
+        <li><span class="venue">NeurIPS</span> — Neural Information Processing Systems</li>
+        <li><span class="venue">ICML</span> — International Conference on Machine Learning</li>
+        <li><span class="venue">AAAI</span> — AAAI Conference on Artificial Intelligence</li>
+        <li><span class="venue">IJCAI</span> — International Joint Conferences on Artificial Intelligence</li>
+        <li><span class="venue">ACMMM</span> — ACM International Conference on Multimedia</li>
+      </ul>
+    </div>
+
+    <!-- Journal Reviewer -->
+    <div class="service-category">
+      <div class="service-cat-title"><span class="cat-icon">📖</span> Journal Reviewer</div>
+      <ul class="service-list">
+        <li><span class="venue">Nature Communications</span></li>
+        <li><span class="venue">IEEE TPAMI</span> — IEEE Trans. on Pattern Analysis and Machine Intelligence</li>
+        <li><span class="venue">IJCV</span> — International Journal of Computer Vision</li>
+        <li><span class="venue">IEEE TIP</span> — IEEE Trans. on Image Processing</li>
+        <li><span class="venue">IEEE TNNLS</span> — IEEE Trans. on Neural Networks and Learning Systems</li>
+        <li><span class="venue">IEEE TMM</span> — IEEE Trans. on Multimedia</li>
+        <li><span class="venue">IEEE TCYB</span> — IEEE Trans. on Cybernetics</li>
+        <li><span class="venue">IEEE TAI</span> — IEEE Trans. on Artificial Intelligence</li>
+      </ul>
+    </div>
+
+    <!-- Thesis Examiner -->
+    <div class="service-category">
+      <div class="service-cat-title"><span class="cat-icon">🎓</span> Thesis Examiner</div>
+      <ul class="service-list">
+        <li><span class="venue">CDGDC (China Academic Degrees Center)</span><span class="role">Reviewer</span> <span class="detail">PhD, Master, and Bachelor thesis review</span></li>
+        <li><span class="venue">Australian National University (ANU)</span><span class="role">Examiner</span> <span class="detail">PhD &amp; Master thesis review</span></li>
+        <li><span class="venue">Macquarie University</span><span class="role">Examiner</span> <span class="detail">PhD &amp; Master thesis review</span></li>
+        <li><span class="venue">Manchester Metropolitan University</span><span class="role">Examiner</span> <span class="detail">PhD &amp; Master thesis review</span></li>
+      </ul>
+    </div>
+
+    <!-- Grant Reviewer -->
+    <div class="service-category">
+      <div class="service-cat-title"><span class="cat-icon">💰</span> Grant Reviewer</div>
+      <ul class="service-list">
+        <li><span class="venue">National Natural Science Foundation of China (NSFC)</span><span class="role">Reviewer</span></li>
+        <li><span class="venue">Hong Kong Research Grants Council (RGC)</span><span class="role">Reviewer</span></li>
+        <li><span class="venue">Hubei Provincial Department of Science &amp; Technology</span><span class="role">Reviewer</span></li>
+      </ul>
+    </div>
+
+    <!-- Reviewer Awards -->
+    <div class="service-category">
+      <div class="service-cat-title"><span class="cat-icon">🏆</span> Reviewer Awards</div>
+      <ul class="service-list">
+        <li><span class="venue">ICME 2020</span> <span class="detail">Distinguished Reviewer Award</span></li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+<script>
+  function toggleTheme(){
+    document.body.classList.toggle('dark');
+    localStorage.setItem('theme',document.body.classList.contains('dark')?'dark':'light');
+  }
+  if(localStorage.getItem('theme')==='dark') document.body.classList.add('dark');
+</script>
+  <script src="js/counter.js"></script>
+</body>
+</html>

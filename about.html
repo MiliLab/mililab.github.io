@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jing Zhang — About MiliLab.">
+<title>About · Jing Zhang</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+/* ===== About Page ===== */
+.about-hero {
+  text-align: center;
+  padding: 56px 0 40px;
+}
+.about-hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.about-hero-logo {
+  width: 64px;
+  height: auto;
+  flex-shrink: 0;
+  align-self: center;
+  display: block;
+  transform: translateY(-8px);
+}
+.dark .about-hero-logo {
+  filter: invert(1);
+}
+.about-lab-name {
+  font-size: 54px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: var(--text);
+  line-height: 1;
+}
+.about-lab-name span {
+  color: var(--accent);
+}
+.about-lab-sub {
+  font-size: 15px;
+  color: var(--text-muted);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+}
+.about-lab-sub::before,
+.about-lab-sub::after {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background: var(--text-muted);
+  opacity: 0.5;
+}
+
+/* Philosophy card */
+.philosophy-card {
+  max-width: 720px;
+  margin: 0 auto;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 48px 52px 44px;
+  position: relative;
+  overflow: hidden;
+}
+.philosophy-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), #a855f7, var(--accent));
+}
+
+/* Motto quote block */
+.motto-block {
+  position: relative;
+  padding: 8px 28px 8px 32px;
+  margin-bottom: 10px;
+}
+.motto-block:last-child { margin-bottom: 0; }
+
+/* Large decorative quote mark – opening */
+.motto-block::before {
+  content: '\201C';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  font-size: 56px;
+  line-height: 1;
+  color: var(--accent);
+  opacity: 0.18;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+/* Large decorative quote mark – closing */
+.motto-block::after {
+  content: '\201D';
+  position: absolute;
+  bottom: -4px;
+  right: 0;
+  font-size: 56px;
+  line-height: 1;
+  color: var(--accent);
+  opacity: 0.18;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.motto-text {
+  font-size: 16px;
+  line-height: 2;
+  color: var(--text-secondary);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.motto-divider {
+  width: 48px;
+  height: 1px;
+  background: var(--border);
+  margin: 24px auto;
+}
+
+@media (max-width: 680px) {
+  .about-hero-inner { gap: 18px; }
+  .about-hero-logo { width: 48px; }
+  .about-lab-name { font-size: 36px; }
+  .philosophy-card { padding: 36px 24px 32px; }
+  .motto-block { padding: 6px 20px 6px 24px; }
+  .motto-block::before, .motto-block::after { font-size: 40px; }
+  .motto-text { font-size: 15px; line-height: 1.9; }
+}
+
+/* Visit counter — currently hidden; remove next line to restore */
+.visit-counter { display: none; }
+
+/* Visit counter — subtle, minimal */
+.visit-counter {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 11.5px;
+  color: var(--text-muted);
+  opacity: 0.40;
+  transition: opacity 0.4s;
+  letter-spacing: 0.3px;
+}
+.visit-counter:hover {
+  opacity: 0.65;
+}
+.visit-counter .visit-dot {
+  margin: 0 7px;
+  opacity: 0.45;
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">Jing Zhang</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="service.html">Service</a>
+      <a href="talks.html">Talks</a>
+      <a href="people.html">People</a>
+      <a href="about.html" class="active">About</a>
+      <button id="theme-toggle" title="Toggle dark mode" onclick="toggleTheme()">🌓</button>
+    </div>
+  </div>
+</nav>
+
+<div class="about-hero">
+  <div class="container">
+    <div class="about-hero-inner">
+      <img class="about-hero-logo" src="assets/mililab-logo.png" alt="MiliLab Logo">
+      <div class="about-lab-name"><span>Mili</span>Lab</div>
+    </div>
+    <div class="about-lab-sub">TINY DISCOVERIES. BRIGHTER FUTURE.</div>
+  </div>
+</div>
+
+<section class="section" style="padding-top:4px">
+  <div class="container">
+    <div class="philosophy-card">
+      <!-- Chinese motto -->
+      <div class="motto-block">
+        <p class="motto-text">我们相信，每一个微小发现，都可能成为改变与突破的起点。我们心怀谦逊，笃行创新；微光如米，亦能驱散黑暗，照亮前路。</p>
+      </div>
+      <div class="motto-divider"></div>
+      <!-- English motto -->
+      <div class="motto-block">
+        <p class="motto-text">At MiliLab, we believe that every small discovery may mark the beginning of change and breakthroughs. Guided by humility and driven by innovation, we seek to shine like a grain of light—small, humble, yet capable of dispelling darkness and illuminating the way forward.</p>
+      </div>
+    </div>
+
+    <div class="visit-counter">
+      <span>Visits</span>
+      <span class="visit-dot">·</span>
+      <span id="visit-count">0</span>
+    </div>
+  </div>
+</section>
+
+
+<script src="js/counter.js"></script>
+<script>
+  function toggleTheme(){
+    document.body.classList.toggle('dark');
+    localStorage.setItem('theme',document.body.classList.contains('dark')?'dark':'light');
+  }
+  if(localStorage.getItem('theme')==='dark') document.body.classList.add('dark');
+
+  // Display visit count from shared localStorage key
+  (function(){
+    var el = document.getElementById('visit-count');
+    if (el) {
+      var total = parseInt(localStorage.getItem('mililab_visit_total')) || 0;
+      el.textContent = total.toLocaleString();
+    }
+  })();
+</script>
+</body>
+</html>

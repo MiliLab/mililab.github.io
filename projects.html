@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jing Zhang — Research Topics.">
+<title>Projects · Jing Zhang</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">Jing Zhang</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="service.html">Service</a>
+      <a href="talks.html">Talks</a>
+      <a href="people.html">People</a>
+      <a href="about.html">About</a>
+
+      <button id="theme-toggle" title="Toggle dark mode" onclick="toggleTheme()">🌓</button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <h1>Projects</h1>
+  </div>
+</header>
+
+<section class="section" style="padding-top:8px">
+  <div class="container">
+
+    <!-- Grants & Funding -->
+    <div class="section-title">Grants &amp; Funding</div>
+    <div class="grants-list">
+      <div class="grant-item">
+        <span class="grant-source">MOST</span>
+        <div class="grant-body">
+          <div class="grant-title">Hallucination Detection, Quantification, and Mitigation in Multimodal Large Models</div>
+          <div class="grant-meta">National Science &amp; Technology Major Project on Next-Generation AI (Sub-project PI) · 2025–2027</div>
+        </div>
+      </div>
+      <div class="grant-item">
+        <span class="grant-source">NSFC</span>
+        <div class="grant-body">
+          <div class="grant-title">Open-World Active Visual Perception for Embodied Robots</div>
+          <div class="grant-meta">Young Talent Program · 2025–2027</div>
+        </div>
+      </div>
+      <div class="grant-item">
+        <span class="grant-source">Industry</span>
+        <div class="grant-body">
+          <div class="grant-title">Lesion Detection, Organ Segmentation, and View Recognition for Ultrasound Robotics</div>
+          <div class="grant-meta">Industry Collaboration · 2025–2027</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-title" style="margin-top:32px">Research Topics</div>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3>Multimodal Reasoning</h3>
+        <p>Advancing multimodal reasoning through structured chain-of-thought inference, cross-modal alignment, and knowledge-aware modeling, enabling evidence-grounded, interpretable, and reliable reasoning across vision, language, and structured knowledge.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Human-Centric Perception</h3>
+        <p>Fine-grained human-centric perception for embodied intelligence, including 2D/3D pose estimation, 3D/4D human reconstruction, and anatomical understanding, enabling human–robot interaction and medical embodied applications.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Medical Embodied AI</h3>
+        <p>Embodied intelligence for medical applications, enabling active perception, robotic control, and medical imaging understanding for autonomous diagnosis and decision-making, with applications such as ultrasound robotics.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<script>
+  function toggleTheme(){
+    document.body.classList.toggle('dark');
+    localStorage.setItem('theme',document.body.classList.contains('dark')?'dark':'light');
+  }
+  if(localStorage.getItem('theme')==='dark') document.body.classList.add('dark');
+</script>
+  <script src="js/counter.js"></script>
+</body>
+</html>

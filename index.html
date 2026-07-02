@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jing Zhang — Professor at Wuhan University. Computer Vision, Vision Foundation Models, Multimodal LLMs, Embodied AI.">
+<title>Jing Zhang — Professor at Wuhan University</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+/* ===== Two-Column Profile ===== */
+.profile{padding:48px 0 24px}
+.profile-grid{display:grid;grid-template-columns:1fr 260px;gap:40px;align-items:start}
+@media(max-width:680px){.profile-grid{grid-template-columns:1fr;gap:24px}}
+.profile-text h1{font-size:28px;font-weight:700;letter-spacing:-0.5px;margin-bottom:2px}
+.profile-text .chinese-name{display:inline;font-size:17px;color:var(--text-muted);margin-left:8px;font-weight:400}
+.profile-text .affiliation{font-size:15px;color:var(--text-secondary);line-height:1.6;margin:8px 0}
+.profile-text .affiliation a{font-weight:500}
+.profile-text p{font-size:14px;color:var(--text-secondary);line-height:1.7;margin-top:10px}
+.profile-sidebar{text-align:center}
+.profile-avatar{
+  width:200px;height:200px;border-radius:50%;margin:0 auto 20px;
+  object-fit:cover;display:block;
+  object-position:center 25%;
+  border:none;
+  -webkit-mask-image: radial-gradient(circle, black 60%, transparent 100%);
+  mask-image: radial-gradient(circle, black 60%, transparent 100%);
+}
+.profile-info{text-align:left;font-size:12px;color:var(--text-muted);line-height:1.8;margin-bottom:16px}
+.profile-info .info-row{display:flex;gap:8px;align-items:flex-start;padding:3px 0}
+.profile-info .info-label{font-weight:600;color:var(--text-secondary);min-width:44px;flex-shrink:0}
+.profile-info .info-value{color:var(--text-muted)}
+.profile-info a{color:var(--accent);font-size:12px}
+.profile-sidebar .social-icons{display:flex;gap:8px;justify-content:center;margin-top:0}
+.profile-sidebar .social-icons a{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:32px;height:32px;border-radius:6px;background:var(--card-bg);
+  border:1px solid var(--border);color:var(--text-muted);font-size:16px;
+  transition:all .2s;
+}
+.profile-sidebar .social-icons a:hover{
+  color:var(--accent);border-color:var(--accent);background:transparent;text-decoration:none
+}
+.profile-sidebar .social-icons a.github-dim{
+  opacity:0.55
+}
+.profile-sidebar .social-icons a.github-dim:hover{
+  opacity:1
+}
+
+/* ===== Education & Experience Timeline ===== */
+.timeline{position:relative;padding-left:28px}
+.timeline::before{content:'';position:absolute;left:8px;top:4px;bottom:4px;width:2px;background:var(--border)}
+.timeline-item{position:relative;padding:0 0 16px 0}
+.timeline-item::before{content:'';position:absolute;left:-24px;top:4px;width:10px;height:10px;border-radius:50%;background:var(--accent);border:2px solid var(--bg);z-index:1}
+.timeline-title{font-size:14px;font-weight:600;color:var(--text)}
+.timeline-meta{font-size:12px;color:var(--text-muted);margin-top:2px}
+.timeline-detail{font-size:12px;color:var(--text-secondary);margin-top:2px;line-height:1.5}
+
+/* ===== Honors Section ===== */
+.honors-list{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:4px 16px}
+@media(max-width:680px){.honors-list{grid-template-columns:1fr}}
+.honor-item{font-size:13px;color:var(--text-secondary);padding:5px 0;display:flex;align-items:baseline;gap:6px;border-bottom:1px solid var(--border)}
+.honor-item .honor-icon{font-size:13px;flex-shrink:0;opacity:0.8}
+.honor-item .honor-text{line-height:1.4}
+.honor-item strong{color:var(--text)}
+
+/* ===== Teaching Card ===== */
+.teaching-card{
+  background:var(--card-bg);border-radius:10px;padding:20px;
+  border:1px solid var(--border);margin-bottom:12px;
+}
+.teaching-card h3{font-size:15px;margin-bottom:4px}
+.teaching-card p{font-size:12px;color:var(--text-secondary);line-height:1.6}
+
+/* Col layout for education + experience side by side */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+@media(max-width:680px){.two-col{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">Jing Zhang</a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="news.html">News</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="service.html">Service</a>
+      <a href="talks.html">Talks</a>
+      <a href="people.html">People</a>
+      <a href="about.html">About</a>
+
+      <button id="theme-toggle" title="Toggle dark mode" onclick="toggleTheme()">🌓</button>
+    </div>
+  </div>
+</nav>
+
+<!-- Profile — Two-Column Layout -->
+<section class="profile" id="home">
+  <div class="container">
+    <div class="profile-grid">
+      <!-- Left: Text -->
+      <div class="profile-text">
+        <h1>Jing Zhang <span class="chinese-name">张敬</span></h1>
+        <div class="affiliation">
+          Professor, <strong>PhD &amp; Master Advisor</strong><br>
+          Deputy Director · Department of Intelligent Science<br>
+          School of Computer Science, <a href="https://www.whu.edu.cn" target="_blank">Wuhan University</a>, China
+        </div>
+        <p>
+          I am a Professor at the School of Computer Science, Wuhan University.
+          I lead the <strong>Medical Foundation Models &amp; Embodied Intelligence Lab</strong>.
+          My research focuses on <strong>Vision Foundation Models</strong>, <strong>Multimodal
+          Large Language Models</strong>, and their applications in <strong>Medical Embodied AI</strong>
+          (e.g., ultrasound robotics).
+        </p>
+        <p>
+          Previously, I was a Research Fellow at the <strong>University of Sydney</strong> (2019–2024),
+          advised by Prof. Dacheng Tao. I received my PhD from the
+          <strong>University of Science and Technology of China</strong> (USTC), advised by Prof. Zengfu Wang.
+        </p>
+      </div>
+      <!-- Right: Avatar + Info -->
+      <div class="profile-sidebar">
+        <img class="profile-avatar" src="assets/avatar.png" alt="Jing Zhang">
+        <div class="profile-info">
+          <div class="info-row"><span class="info-label">Office</span><span class="info-value">D202</span></div>
+          <div class="info-row"><span class="info-label">Lab</span><span class="info-value">MiliLab @ B103</span></div>
+        </div>
+        <div class="social-icons">
+          <a href="mailto:jingzhang.cv@whu.edu.cn" title="Email">✉</a>
+          <a href="https://scholar.google.com/citations?user=9jH5v74AAAAJ" target="_blank" title="Google Scholar"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 017 7 7 7 0 01-14 0 7 7 0 017-7z"/></svg></a>
+          <a href="https://github.com/MiliLab" target="_blank" title="GitHub"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a8 8 0 00-2.53 15.59c.4.07.55-.17.55-.38v-1.49c-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 014 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 008 0z"/></svg></a>
+          <a href="https://github.com/ViTAE-Transformer" target="_blank" title="ViTAE-Transformer" class="github-dim"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a8 8 0 00-2.53 15.59c.4.07.55-.17.55-.38v-1.49c-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 014 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 008 0z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education & Experience -->
+<section class="section" style="padding-top:8px">
+  <div class="container">
+    <div class="section-title">Education &amp; Experience</div>
+    <div class="two-col">
+      <div>
+        <div style="font-size:15px;font-weight:600;margin-bottom:12px;color:var(--text)">Positions</div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-title">Professor</div>
+            <div class="timeline-meta">Wuhan University · School of Computer Science</div>
+            <div class="timeline-detail">Dec 2024 – Present · PhD &amp; Master Advisor</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-title">Research Fellow</div>
+            <div class="timeline-meta">University of Sydney · School of Computer Science</div>
+            <div class="timeline-detail">Apr 2019 – Dec 2024 · Computer Vision &amp; Deep Learning</div>
+            <div class="timeline-detail">Advisor: Prof. Dacheng Tao</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:15px;font-weight:600;margin-bottom:12px;color:var(--text)">Education</div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-title">Ph.D. in Control Science and Engineering</div>
+            <div class="timeline-meta">University of Science and Technology of China (USTC)</div>
+            <div class="timeline-detail">Advisor: Prof. Zengfu Wang</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Honors & Awards -->
+<section class="section" style="padding-top:28px">
+  <div class="container">
+    <div class="section-title">Honors &amp; Awards</div>
+    <ul class="honors-list">
+      <li class="honor-item"><span class="honor-icon">🏅</span><span class="honor-text"><strong>National Young Talent</strong> · National Level</span></li>
+      <li class="honor-item"><span class="honor-icon">🏅</span><span class="honor-text"><strong>Hubei Provincial Talent</strong> · Provincial Level</span></li>
+      <li class="honor-item"><span class="honor-icon">🏅</span><span class="honor-text"><strong>China Remote Sensing Outstanding Achievement 1st Prize</strong> · 2025</span></li>
+      <li class="honor-item"><span class="honor-icon">🏅</span><span class="honor-text"><strong>Hubei Youth May Fourth Medal</strong> (Team) · 2025</span></li>
+      <li class="honor-item"><span class="honor-icon">🏅</span><span class="honor-text"><strong>Best Paper Award</strong> · ADMA 2024</span></li>
+      <li class="honor-item"><span class="honor-icon">🏅</span><span class="honor-text"><strong>IEEE Senior Member</strong> · 2023</span></li>
+      <li class="honor-item"><span class="honor-icon">🏅</span><span class="honor-text"><strong>1st Place</strong> · ISPRS Object Detection in Satellite Images · 2023</span></li>
+      <li class="honor-item"><span class="honor-icon">🏅</span><span class="honor-text"><strong>1st Place</strong> · WACV UAV Detection v2 Challenge · 2023</span></li>
+      <li class="honor-item"><span class="honor-icon">🏅</span><span class="honor-text"><strong>Stanford Top 2% Scientists</strong> · 2022–2025</span></li>
+      <li class="honor-item"><span class="honor-icon">🏅</span><span class="honor-text"><strong>1st Place</strong> · MS COCO Keypoint Detection (ViTPose) · 2022</span></li>
+      <li class="honor-item"><span class="honor-icon">🏅</span><span class="honor-text"><strong>1st Place</strong> · ImageNet Real Classification (ViTAE) · 2022</span></li>
+      <li class="honor-item"><span class="honor-icon">🏅</span><span class="honor-text"><strong>1st Place</strong> · KITTI Road Detection (PLARD) · 2019</span></li>
+      <li class="honor-item"><span class="honor-icon">🏅</span><span class="honor-text"><strong>Distinguished Reviewer</strong> · ICME 2020</span></li>
+      <li class="honor-item"><span class="honor-icon">🏅</span><span class="honor-text"><strong>Best Application Paper Nomination</strong> · CIKM 2021</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- Recent News -->
+<section class="section" id="news">
+  <div class="container">
+    <div class="section-title">Recent News</div>
+    <ul class="news-list">
+      <li class="news-item">
+        <span class="news-date">June 2026</span>
+        <span class="news-text">Congratulations to <strong>Pei Zhang</strong> and <strong>Yupeng Wu</strong> on receiving the <strong>Outstanding Undergraduate Thesis Award</strong>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Jun 18, 2026</span>
+        <span class="news-text">Delivered an invited talk at the <strong>School of Computer Science, China University of Geosciences</strong>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Jun 17, 2026</span>
+        <span class="news-text">Hosted Dr. <strong>Zhe Chen</strong> from La Trobe University for an invited talk on structural priors for visual learning.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">May 2026</span>
+        <span class="news-text">Three papers accepted at <strong>ICML 2026</strong>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">April 2026</span>
+        <span class="news-text">Our survey on event-based SLAM has been published in <strong>IJCV</strong>.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">February 2026</span>
+        <span class="news-text">Seven papers accepted at <strong>CVPR 2026</strong>: PEARL for multimodal reasoning; RDBM for image restoration (CVPR Highlight).</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">January 2026</span>
+        <span class="news-text"><strong>AnesSuite</strong> accepted at <strong>ICLR 2026</strong>.</span>
+      </li>
+    </ul>
+    <p style="text-align:right;margin-top:10px"><a href="news.html" style="font-size:13px">see all news →</a></p>
+  </div>
+</section>
+
+<!-- Selected Publications Preview -->
+<section class="section" id="publications">
+  <div class="container">
+    <div class="section-title">Selected Publications</div>
+    <ul class="pub-preview-list">
+      <li class="pub-preview-item">
+        <a href="publications.html">Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning</a>
+        <span class="pub-preview-venue">CVPR, 2026</span>
+      </li>
+      <li class="pub-preview-item">
+        <a href="publications.html">HyperSIGMA: Hyperspectral Intelligence Comprehension Foundation Model</a>
+        <span class="pub-preview-venue">IEEE TPAMI, 2025</span>
+      </li>
+      <li class="pub-preview-item">
+        <a href="publications.html">A Survey on Self-supervised Learning: Algorithms, Applications, and Future Trends</a>
+        <span class="pub-preview-venue">IEEE TPAMI, 2024</span>
+      </li>
+      <li class="pub-preview-item">
+        <a href="publications.html">Unifying Flow, Stereo and Depth Estimation</a>
+        <span class="pub-preview-venue">IEEE TPAMI, 2023</span>
+      </li>
+      <li class="pub-preview-item">
+        <a href="publications.html">Vision Transformer with Quadrangle Attention</a>
+        <span class="pub-preview-venue">IEEE TPAMI, 2023</span>
+      </li>
+      <li class="pub-preview-item">
+        <a href="publications.html">ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation</a>
+        <span class="pub-preview-venue">NeurIPS, 2022</span>
+      </li>
+      <li class="pub-preview-item">
+        <a href="publications.html">Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model</a>
+        <span class="pub-preview-venue">IEEE TGRS, 2022</span>
+      </li>
+      <li class="pub-preview-item">
+        <a href="publications.html">GMFlow: Learning Optical Flow via Global Matching</a>
+        <span class="pub-preview-venue">CVPR (Oral), 2022</span>
+      </li>
+      <li class="pub-preview-item">
+        <a href="publications.html">ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias</a>
+        <span class="pub-preview-venue">NeurIPS, 2021</span>
+      </li>
+      <li class="pub-preview-item">
+        <a href="publications.html">MirrorGAN: Learning Text-to-image Generation by Redescription</a>
+        <span class="pub-preview-venue">CVPR, 2019</span>
+      </li>
+    </ul>
+    <p style="text-align:right;margin-top:10px"><a href="publications.html" style="font-size:13px">see all publications →</a></p>
+  </div>
+</section>
+
+<!-- Openings -->
+<section class="section" style="padding-top:28px">
+  <div class="container">
+    <div class="section-title">Openings</div>
+    <div class="teaching-card">
+      <p>I am always looking for motivated PhD and MSc students interested in computer vision, foundation models, multimodal AI, and embodied intelligence. Students with strong programming skills and research experience are encouraged to reach out via email.</p>
+      <p style="margin-top:6px"><strong>2027 Fall Admission —</strong> Graduate Students &amp; PhD Students</p>
+      <p style="margin-top:4px"><strong>Open All Year —</strong> Undergraduate Research · Hongyi Postdoctoral Program</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+
+<script>
+  function toggleTheme(){
+    document.body.classList.toggle('dark');
+    localStorage.setItem('theme',document.body.classList.contains('dark')?'dark':'light');
+  }
+  if(localStorage.getItem('theme')==='dark') document.body.classList.add('dark');
+</script>
+  <script src="js/counter.js"></script>
+</body>
+</html>

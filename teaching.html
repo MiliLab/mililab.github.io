@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jing Zhang — Teaching">
+<title>Teaching · Jing Zhang</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+.teaching-list{list-style:none}
+.teaching-item{display:flex;gap:16px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--border);font-size:14px;color:var(--text-secondary);line-height:1.5}
+.teaching-item:last-child{border-bottom:none}
+.teaching-term{font-weight:600;color:var(--accent);min-width:100px;flex-shrink:0;font-size:13px}
+.teaching-name{font-weight:600;color:var(--text)}
+.teaching-level{font-size:11px;color:var(--text-muted);background:var(--tag-bg);padding:1px 8px;border-radius:3px;margin-left:8px;white-space:nowrap}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">Jing Zhang</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="teaching.html" class="active">Teaching</a>
+      <a href="service.html">Service</a>
+      <a href="talks.html">Talks</a>
+      <a href="people.html">People</a>
+      <a href="about.html">About</a>
+
+      <button id="theme-toggle" title="Toggle dark mode" onclick="toggleTheme()">🌓</button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <h1>Teaching</h1>
+  </div>
+</header>
+
+<section class="section" style="padding-top:8px">
+  <div class="container">
+    <ul class="teaching-list">
+      <li class="teaching-item">
+        <span class="teaching-term">2026 Spring</span>
+        <span class="teaching-name">Introduction to Artificial Intelligence A</span>
+        <span class="teaching-level">Undergraduate</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+<script>
+  function toggleTheme(){
+    document.body.classList.toggle('dark');
+    localStorage.setItem('theme',document.body.classList.contains('dark')?'dark':'light');
+  }
+  if(localStorage.getItem('theme')==='dark') document.body.classList.add('dark');
+</script>
+  <script src="js/counter.js"></script>
+</body>
+</html>
