@@ -1,0 +1,203 @@
+# ==========================================
+# Jing Zhang - Academic Homepage Configuration
+# Based on al-folio Jekyll theme
+# ==========================================
+
+# --- Site Settings ---
+title: Jing Zhang
+first_name: Jing
+middle_name:
+last_name: Zhang
+email: jing.zhang@whu.edu.cn
+description: >-
+  Associate Professor at Wuhan University.
+  Research in computer vision, deep learning, and remote sensing.
+footer_text: >-
+  Powered by Jekyll with al-folio theme.
+  Hosted by GitHub Pages.
+keywords: computer vision, deep learning, remote sensing, vision transformer
+lang: en
+icon: 🎓
+url: https://jingzhang-whu.github.io
+baseurl: ""
+last_updated: true
+impressum_path:
+back_to_top: true
+
+# --- Theme ---
+repo_theme_light: default
+repo_theme_dark: dark
+repo_trophies:
+  enabled: false
+
+# --- RSS ---
+rss_icon: true
+
+# --- Layout ---
+navbar_fixed: true
+footer_fixed: false
+search_enabled: false
+socials_in_search: false
+bib_search: false
+max_width: 930px
+
+# --- Open Graph ---
+serve_og_meta: false
+serve_schema_org: false
+
+# --- Social Integration ---
+github_username: MiliLab
+scholar_userid: 9jH5v74AAAAJ
+orcid_id:
+dblp_url:
+linkedin_username:
+x_username:
+research_gate_profile:
+
+contact_note: >-
+  Feel free to reach out via email for collaborations.
+
+# --- Analytics ---
+google_analytics:
+cronitor_analytics:
+pirsch_analytics:
+google_site_verification:
+bing_site_verification:
+
+# --- Blog ---
+blog_name: Jing Zhang
+blog_description: Research blog
+permalink: /blog/:year/:title/
+lsi: false
+
+# --- Collections ---
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /:collection/:title/
+  projects:
+    output: true
+    permalink: /:collection/:title/
+
+announcements:
+  enabled: false
+  scrollable: true
+  limit: 5
+
+latest_posts:
+  enabled: false
+  scrollable: true
+  limit: 3
+
+# --- Jekyll Settings ---
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+include:
+  - "_pages"
+exclude:
+  - "bin/"
+  - "CONTRIBUTING.md"
+  - "CUSTOMIZE.md"
+  - "Dockerfile"
+  - "docker-compose.yml"
+  - "FAQ.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "INSTALL.md"
+  - "LICENSE"
+  - "README.md"
+  - "vendor/"
+keep_files:
+  - "CNAME"
+  - ".nojekyll"
+
+plugins:
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-scholar
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+
+# --- Jekyll Scholar ---
+scholar:
+  last_name: [Zhang]
+  first_name: [Jing, J.]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters:
+    - latex
+    - smallcaps
+    - superscript
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+  group_by: year
+  group_order: descending
+  enable_publication_badges:
+    altmetric: false
+    dimensions: false
+    google_scholar: true
+    inspirehep: false
+
+filtered_bibtex_keywords:
+  - abbr
+  - abstract
+  - additional_info
+  - altmetric
+  - annotation
+  - arxiv
+  - award
+  - award_name
+  - bibtex_show
+  - blog
+  - code
+  - google_scholar_id
+  - html
+  - inspirehep_id
+  - pdf
+  - poster
+  - preview
+  - selected
+  - slides
+  - supp
+  - video
+  - website
+
+max_author_limit: 3
+more_authors_animation_delay: 10
+enable_publication_thumbnails: false
+
+# --- Optional Features ---
+enable_google_analytics: false
+enable_cronitor_analytics: false
+enable_pirsch_analytics: false
+enable_google_verification: false
+enable_bing_verification: false
+enable_masonry: false
+enable_math: true
+enable_tooltips: false
+enable_darkmode: true
+enable_navbar_social: true
+enable_project_categories: true
+enable_medium_zoom: false
+enable_progressbar: true
+enable_video_embedding: false
